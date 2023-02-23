@@ -1,7 +1,7 @@
 //your code here
 const pageNumber = document.getElementByID("pageNumber")
 async function fetchdata(PageNumberHere){
-	const response = await fetch (`https://api.github.com/repositories/1296269/issues?page=${pageNumberHere}&per_page=5`)
+	const response = await fetch (`https://api.github.com/repositories/1296269/issues?page=${pageNumber}&per_page=5`)
 	const data = response.json();
 	console.log(data);
 }
