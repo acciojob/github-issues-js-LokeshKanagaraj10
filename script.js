@@ -14,7 +14,7 @@ function loadNext(){
 
 function loadPrev(){
 	pageNumber--;
-	if(pageNumber === 1){
+	if(pageNumber === 2){
 		document.getElementById("load_prev").disable = true;
 	}
 	else{
